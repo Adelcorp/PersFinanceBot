@@ -6,16 +6,13 @@ from aiogram import Bot, Dispatcher, types, executor
 
 import expenses
 from categories import Categories
-from access import AccessMiddleware
 
 logging.basicConfig(level=logging.INFO)
 
 API_TOKEN = os.getenv("5854560246:AAGOJ1oqkHHy-LizHS80OLeLc-hlTTGW-TE")
-ACCESS_ID = os.getenv("1390271556")
 
 bot = Bot(token="5854560246:AAGOJ1oqkHHy-LizHS80OLeLc-hlTTGW-TE")
 dp = Dispatcher(bot)
-dp.middleware.setup(AccessMiddleware(ACCESS_ID))
 
 class NotCorrectMessage(Exception):
     pass
