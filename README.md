@@ -11,3 +11,9 @@
 
 
 Происходит некорректное отображение названий категорий из бд, как это можно исправить?
+
+Доступные категории расходов:
+
+products; cofee; dinner; cafe; transport; phone; books; internet; subscriptions; other
+
+Псевдонимы категорий в createdb.sql
