@@ -1,5 +1,4 @@
 # PersFinanceBot
-Бикмухаметова Адель Б05-205
 
 Бот для учёта личных финансов https://t.me/PersFinanceBot
 
